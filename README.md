@@ -1,5 +1,7 @@
 # wisp (draft)
 
+> **Status: draft, not under development.** This repository holds a design ([BLUEPRINT.md](BLUEPRINT.md), [ROADMAP.md](ROADMAP.md)) and no source code yet, so the install and command sections below describe the intended behaviour and do not work today.
+
 **a local LLM pet that lives in your terminal**
 
 wisp is a tamagotchi powered entirely by your machine. it runs on [Ollama](https://ollama.com) with small language models — no cloud, no account, no data leaving your computer. your wisp has a name, a species, a mood, and a personality shaped by how you treat it.
@@ -48,7 +50,7 @@ ollama pull qwen3:0.6b  # ~1GB, low-spec hardware
 ## install
 
 ```bash
-git clone https://github.com/your-org/wisp
+git clone https://github.com/yokeloop/wisp
 cd wisp
 bun install
 bun link
